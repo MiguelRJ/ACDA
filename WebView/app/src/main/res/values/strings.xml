@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WebView</string>
+    <string name="txvIndicar">indique sitio web:</string>
+    <string name="btnIr">Ir</string>
+</resources>

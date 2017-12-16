@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Divisas</string>
+    <string name="txvDolares">Dollars</string>
+    <string name="txvEuros">Euros</string>
+    <string name="rdbDolarAEuro">Dolares a Euros</string>
+    <string name="rdbEuroADolar">Euros a Dolares</string>
+    <string name="btnConvertir">Convertir</string>
+</resources>
