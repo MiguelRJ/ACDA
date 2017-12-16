@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ClaseWebView</string>
+    <string name="txvName">Nombre: </string>
+    <string name="txvWeb">Web: </string>
+    <string name="btnName">Nombre</string>
+    <string name="btnWeb">Web</string>
+    <string name="btnWebView">WebView</string>
+</resources>
