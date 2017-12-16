@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="com.example.ficherosred.MainActivity">
+
+    <Button
+        android:id="@+id/btnHTTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conexion HTTP" />
+
+    <Button
+        android:id="@+id/btnAsincrona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conexion Asincrona" />
+
+    <Button
+        android:id="@+id/btnAsincronaHTTPClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asincrona HTTP Client" />
+
+    <Button
+        android:id="@+id/btnVolley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volley" />
+
+    <Button
+        android:id="@+id/btnDescargar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descargar Img" />
+
+    <Button
+        android:id="@+id/btnSubir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subir archivo" />
+
+</LinearLayout>
