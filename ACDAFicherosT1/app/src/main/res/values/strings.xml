@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tema1</string>
+    <string name="btnConversorAMain">Ej1Conversor</string>
+    <string name="btnWebViewAMain">Ej2WebView</string>
+    <string name="btnContadorAMain">Ej3Contador</string>
+    <string name="btnMRJAMain">Ej4MRJ</string>
+    <string name="txvDolaresADiv">Dollars</string>
+    <string name="txvEurosADiv">Euros</string>
+    <string name="rdbDolarAEuroADiv">Dolares a Euros</string>
+    <string name="rdbEuroADolarADiv">Euros a Dolares</string>
+    <string name="btnConvertirADiv">Convertir</string>
+    <string name="txvTextoAWeb">Indique un sitio web: </string>
+    <string name="edtURLAWeb">https://www.google.es</string>
+    <string name="btnIrAWeb">Ir</string>
+    <string name="txvCafesACon">Cafes:</string>
+    <string name="txvCuentaACon">0</string>
+    <string name="btnMasACon">+</string>
+    <string name="btnMenosACon">-</string>
+    <string name="txvTiempoACon">00:00</string>
+    <string name="btnComenzarACon">Comenzar</string>
+    <string name="txvMRJ">Consejos MRJ</string>
+    <string name="edtGuardarConsejoAMRJ">Nuevo consejo</string>
+    <string name="btnGuardarConsejoAMRJ">Guardar</string>
+    <string name="btnSacarConsejoAMRJ">Sacar consejo</string>
+</resources>

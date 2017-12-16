@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.tema1ej.tema1ej.MainActivity">
+
+    <Button
+        android:id="@+id/btnConversorAMain"
+        android:layout_width="@dimen/btnAMainWidth"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btnConversorAMain" />
+
+    <Button
+        android:id="@+id/btnWebViewAMain"
+        android:layout_width="@dimen/btnAMainWidth"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btnWebViewAMain" />
+
+    <Button
+        android:id="@+id/btnContadorAMain"
+        android:layout_width="@dimen/btnAMainWidth"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btnContadorAMain" />
+
+    <Button
+        android:id="@+id/btnMRJAMain"
+        android:layout_width="@dimen/btnAMainWidth"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btnMRJAMain" />
+</LinearLayout>
