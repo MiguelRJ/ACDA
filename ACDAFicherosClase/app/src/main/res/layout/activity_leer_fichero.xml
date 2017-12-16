@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ficheros.LeerFicheroActivity">
+
+
+    <TextView
+        android:id="@+id/txvResRaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txvResRaw" />
+
+    <EditText
+        android:id="@+id/edtResRaw"
+        style="@style/edtLeerFichero"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/txvAssets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txvAssets" />
+
+    <EditText
+        android:id="@+id/edtAssets"
+        style="@style/edtLeerFichero"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/txvMemoriaInterna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txvMemoriaInterna" />
+
+    <EditText
+        android:id="@+id/edtMemoriaInterna"
+        style="@style/edtLeerFichero"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/txvMemoriaExterna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txvMemoriaExterna" />
+
+    <EditText
+        android:id="@+id/edtMemoriaExterna"
+        style="@style/edtLeerFichero"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/txvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>

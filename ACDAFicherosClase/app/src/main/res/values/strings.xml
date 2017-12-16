@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ficheros</string>
+    <string name="btnMemoriaInterna"> Memoria interna</string>
+    <string name="btnMemoriaExterna">Memoria externa</string>
+    <string name="btnLeerFichero">Leer fichero</string>
+    <string name="btnCodificacion">Codificacion</string>
+    <string name="txvResRaw">/res/raw/numero.txt</string>
+    <string name="txvAssets">/res/assets/valor.txt</string>
+    <string name="txvMemoriaInterna">MemInterna/dato.txt</string>
+    <string name="txvMemoriaExterna">MemExterna/dato.txt</string>
+    <string name="btnExploradorArchivos">Explorador Archivos</string>
+    <string name="btnAbrir">Abrir</string>
+</resources>

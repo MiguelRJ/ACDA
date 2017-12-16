@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.ficheros.MainActivity">
+
+    <Button
+        android:id="@+id/btnMemoriaInterna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMemoriaInterna" />
+
+    <Button
+        android:id="@+id/btnMemoriaExterna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMemoriaExterna" />
+
+    <Button
+        android:id="@+id/btnLeerFichero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnLeerFichero" />
+
+    <Button
+        android:id="@+id/btnCodificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCodificacion" />
+
+    <Button
+        android:id="@+id/btnExploradorArchivos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnExploradorArchivos" />
+
+</LinearLayout>
