@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="com.example.ficherosred.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:text="Ficheros en red ACDA"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/btnAgenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="E1 AGENDA" />
+
+            <Button
+                android:id="@+id/btnAlarma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="E2 ALARMA" />
+
+            <Button
+                android:id="@+id/btnCalendario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="E3 CALENDARIO" />
+
+            <Button
+                android:id="@+id/btnWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="E4 Web" />
+
+            <Button
+                android:id="@+id/btnImagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="E5 IMAGEN" />
+
+            <Button
+                android:id="@+id/btnConversor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="E6 CONVERSOR" />
+
+            <Button
+                android:id="@+id/btnSubida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="E7 SUBIDA" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

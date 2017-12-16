@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ficherosred.ConversorActivity">
+
+
+    <TextView
+        android:id="@+id/txv1Dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="1 Dolar son"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txvCambioDolarEruo"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txvCambioDolarEruo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="----"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/txvEuro"
+        app:layout_constraintStart_toEndOf="@+id/txv1Dolar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvEuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Euros"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txvCambioDolarEruo"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txv1Euro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:text="1 Euro son"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txvCambioEuroDolar"
+        app:layout_constraintEnd_toStartOf="@+id/txvCambioEuroDolar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txvCambioEuroDolar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="----"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/txvDolar"
+        app:layout_constraintStart_toStartOf="@+id/txvCambioDolarEruo"
+        app:layout_constraintTop_toBottomOf="@+id/txvCambioDolarEruo" />
+
+    <TextView
+        android:id="@+id/txvDolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:text="Dolares"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txvCambioEuroDolar"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txvDolares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Dolares"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edtDolar"
+        app:layout_constraintEnd_toStartOf="@+id/edtDolar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtDolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvCambioEuroDolar" />
+
+    <TextView
+        android:id="@+id/txvEuros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Euros"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edtEuro"
+        app:layout_constraintEnd_toStartOf="@+id/edtEuro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtEuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtDolar" />
+
+    <RadioGroup
+        android:id="@+id/rdgroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:checkedButton="@id/rbDolarAEuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtEuro">
+
+        <RadioButton
+            android:id="@+id/rbDolarAEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dolar a Euro" />
+
+        <RadioButton
+            android:id="@+id/rbEuroADolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Euro a Dolar" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Calcular"
+        app:layout_constraintTop_toBottomOf="@id/rdgroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
