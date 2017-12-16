@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">contador</string>
+    <string name="txvCafes">Cafes:</string>
+    <string name="txvCuenta">0</string>
+    <string name="btnMas">+</string>
+    <string name="btnMenos">-</string>
+    <string name="txvTiempo">00:00</string>
+    <string name="btnComenzar">Comenzar</string>
+</resources>
